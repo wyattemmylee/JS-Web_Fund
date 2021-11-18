@@ -1,0 +1,118 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    font-family: Roboto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding:0 350px;
+    gap: 30px;
+    background-color: rgb(187, 238, 235);
+    
+}
+.head{
+    display: flex;
+    align-items: center;
+    background-color: rgb(52, 156, 156);
+    padding: 25px 30px ;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    gap: 250px;
+}
+.seach{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    background-color: rgb(187, 238, 235);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.login{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    background: rgb(22,232,219);
+    background: linear-gradient(90deg, rgba(22,232,219,1) 23%, rgba(12,0,255,1) 94%);
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+}
+.main{
+    display: flex;
+    gap: 80px;
+}
+.column {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    gap: 30px;
+}
+.def {
+    display: flex;
+    border: 3px solid;
+    padding: 20px;
+    background-color: rgb(52, 156, 156);
+    justify-content: space-between;
+    gap: 10px;
+}
+.def-col{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px
+}
+.like-btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    background: rgb(22,232,219);
+    background: linear-gradient(90deg, rgba(22,232,219,1) 23%, rgba(12,0,255,1) 94%);
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+}
+.def-main {
+    flex: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+    border: 3px solid;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(52, 156, 156);
+    height: fit-content;
+    text-align: center;
+}
+.add-def {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    background: rgb(22,232,219);
+    background: linear-gradient(90deg, rgba(22,232,219,1) 23%, rgba(12,0,255,1) 94%);
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+}
